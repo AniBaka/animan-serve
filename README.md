@@ -1,4 +1,5 @@
 # animan-serve
+This manual configuring AniBaka Team Server
 
 # Install packages CentOS 6
 <pre>yum update -y
