@@ -32,3 +32,15 @@ PHP 7.1.5 (cli) (built: May 12 2017 22:14:00) ( NTS )
 Copyright (c) 1997-2017 The PHP Group
 Zend Engine v3.1.0, Copyright (c) 1998-2017 Zend Technologies
 </pre>
+
+# Setup root password on MySQL
+<pre>
+[root@localhost /]# grep 'temporary password' /var/log/mysqld.log
+2017-06-08T15:58:30.143866Z 1 [Note] A temporary password is generated for root@localhost: QHn?lDo#U5)J
+
+[root@localhost /]# mysql_secure_installation
+
+Securing the MySQL server deployment.
+
+Enter password for user root:
+</pre>
