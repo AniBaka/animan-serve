@@ -9,7 +9,7 @@ rpm -Uvh https://mirror.webtatic.com/yum/el6/latest.rpm
 yum install nginx php71w httpd -y
 yum install htop iptraf tcpdump -y
 yum install iftop -y
-yum install php71w-common php71w-mbstring php71w-mcrypt php71w-mysqlnd php71w-gd -y
+yum install php71w-common php71w-fpm php71w-cli php71w-mbstring php71w-mcrypt php71w-mysqlnd php71w-gd -y
 rpm -Uvh http://dev.mysql.com/get/mysql57-community-release-el6-7.noarch.rpm
 yum repolist enabled | grep "mysql.*-community.*"
 yum install mysql-community-server
@@ -26,4 +26,9 @@ nginx version: nginx/1.10.2
 [root@localhost ~]# httpd -v
 Server version: Apache/2.2.15 (Unix)
 Server built:   Mar 22 2017 06:52:55
+
+[root@localhost /]# php -v
+PHP 7.1.5 (cli) (built: May 12 2017 22:14:00) ( NTS )
+Copyright (c) 1997-2017 The PHP Group
+Zend Engine v3.1.0, Copyright (c) 1998-2017 Zend Technologies
 </pre>
