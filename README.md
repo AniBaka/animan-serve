@@ -9,4 +9,7 @@ rpm -Uvh https://mirror.webtatic.com/yum/el6/latest.rpm
 yum install nginx php71w httpd -y
 yum install htop iptraf tcpdump -y
 yum install iftop -y
+rpm -Uvh http://dev.mysql.com/get/mysql57-community-release-el6-7.noarch.rpm
+yum repolist enabled | grep "mysql.*-community.*"
+yum install mysql-community-server
 </pre>
