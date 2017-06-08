@@ -8,4 +8,5 @@ rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-6.noarch.rpm
 rpm -Uvh https://mirror.webtatic.com/yum/el6/latest.rpm
 yum install nginx php71w httpd -y
 yum install htop iptraf tcpdump -y
+yum install iftop -y
 </pre>
