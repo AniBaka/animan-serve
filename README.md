@@ -86,3 +86,5 @@ Reload privilege tables now? (Press y|Y for Yes, any other key for No) : y
 Success.
 All done! 
 </pre>
+
+# Configu
