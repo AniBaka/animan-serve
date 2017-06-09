@@ -97,3 +97,9 @@ https://github.com/AniBaka/animan-serve/tree/master/etc/nginx
 [root@localhost /]# grep -v ^# /etc/httpd/conf.d/httpd.conf
 https://github.com/AniBaka/animan-serve/tree/master/etc/httpd/conf.d
 </pre>
+
+# Configuration PHP
+<pre>
+[root@localhost /]# grep -v "^;" /etc/php.ini
+https://github.com/AniBaka/animan-serve/tree/master/etc/php.ini
+</pre>
