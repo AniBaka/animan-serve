@@ -91,3 +91,9 @@ All done!
 <pre>
 https://github.com/AniBaka/animan-serve/tree/master/etc/nginx
 </pre>
+
+# Configuration Apache2
+<pre>
+[root@localhost /]# grep -v ^# /etc/httpd/conf.d/httpd.conf
+https://github.com/AniBaka/animan-serve/tree/master/etc/httpd/conf.d
+</pre>
