@@ -87,4 +87,7 @@ Success.
 All done! 
 </pre>
 
-# Configu
+# Configuration NGINX
+<pre>
+https://github.com/AniBaka/animan-serve/tree/master/etc/nginx
+</pre>
